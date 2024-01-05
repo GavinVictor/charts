@@ -1,7 +1,7 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
 name: docker
-version: 3.1.6
+version: 16.7.0
 appVersion: 24.0.7
 description: Dedicated App for using Docker-in-Docker
 home: https://truecharts.org/charts/stable/docker
@@ -15,7 +15,9 @@ maintainers:
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - docker
+  - gitlab
+  - git
+  - ci
 dependencies:
   - name: common
     version: 17.2.21
